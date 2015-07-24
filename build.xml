@@ -45,4 +45,8 @@
                 checkreturn="true" />
     </target>
 
+    <target name="install-pre-commit-hook">
+        <copy file="contrib/pre-commit" todir=".git/hooks" />
+    </target>
+
 </project>
