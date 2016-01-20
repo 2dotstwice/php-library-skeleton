@@ -13,6 +13,8 @@ the following parts to your needs:
   - PHP namespace prefixes in [autoload] and [autoload-dev]
 - build.xml
   - [project name][Phing project name]
+- phpcs-ruleset.xml
+  - [ruleset name][PHPCS ruleset name]
 - .travis.yml
   - [e-mail notification recipients][Travis CI e-mail notifications]
 
@@ -44,6 +46,7 @@ Register your project on:
 [autoload]: https://getcomposer.org/doc/04-schema.md#psr-4
 [autoload-dev]: https://getcomposer.org/doc/04-schema.md#autoload-dev
 [Phing project name]: https://www.phing.info/docs/guide/trunk/ch04s02.html
+[PHPCS project name]: https://pear.php.net/manual/en/package.php.php-codesniffer.annotated-ruleset.php
 [Travis CI e-mail notifications]: http://docs.travis-ci.com/user/notifications/#Email-notifications
 [PSR-4]: http://www.php-fig.org/psr/psr-4/
 [PSR-2]: http://www.php-fig.org/psr/psr-2/
